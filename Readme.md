@@ -1,6 +1,11 @@
 # Simple car game for reinforcement learning
 
-![SimpleCarGame](Visualization/ManuallyCarGame.gif)
+<p align="center">
+  <img src="Visualization/ManuallyCarGame.gif">
+  <br>
+    <em>Actual in-game footage</em>
+</p>
+
 
 This is a simple car game is relying heavily on image warping (no 3D game), which you can use to test your reinforcement learning algorithms. The game can be played like any other game with the keyboard, but its main intention is to give openai gym-like python functions (consistency with openai gym not guaranteed). The game is giving feedback every frame. Aim is (especially for reinforcement learning) to maximize this score. The game is designed to make the race track creation as easy as porrible. Therefore it is accept .png images as racing tracks. You can generate tracks (even multiple tracks) to suit your individual needs, or just use my prebuild tracks.
 
@@ -79,6 +84,7 @@ I think a more realistic physical model of the car (so you can do drifting etc.)
 
 After that maybe adding some other cars might be good, so the race track is changing dynamically.
 
+Also a documentation of all possible settings inside the game might be useful.
 
 ## Authors
 
@@ -86,7 +92,7 @@ After that maybe adding some other cars might be good, so the race track is chan
 
 ## License
 
-No license yet
+MIT License, see LICENSE file.
 
 ## Acknowledgments
 
