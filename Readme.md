@@ -35,9 +35,9 @@
 Key features
 </h2>
 
-<img src="Visualization/ManuallyCarGame.gif" align="right">
-
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+<img src="Visualization/ManuallyCarGame.gif" align="right">  
 
 * **Easy to get started**: API close to OpenAI gym
 
