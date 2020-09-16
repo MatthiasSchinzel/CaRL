@@ -7,14 +7,14 @@
   <br>
 </p>
 <p align="center">
-<a href="https://github.com/MatthiasSchinzel/Simple-Car-Game-For-Reinforcement-Learning/graphs/commit-activity">
+<a href="https://github.com/MatthiasSchinzel/CaRL/graphs/commit-activity">
     <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg">
 </a>
-<a href="https://github.com/MatthiasSchinzel/Simple-Car-Game-For-Reinforcement-Learning/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/MatthiasSchinzel/Simple-Car-Game-For-Reinforcement-Learning.svg">
+<a href="https://github.com/MatthiasSchinzel/CaRL/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/MatthiasSchinzel/CaRL.svg">
 </a>
-<a href="https://github.com/MatthiasSchinzel/Simple-Car-Game-For-Reinforcement-Learning/tags/">
-    <img src="https://img.shields.io/github/tag/MatthiasSchinzel/Simple-Car-Game-For-Reinforcement-Learning.svg">
+<a href="https://github.com/MatthiasSchinzel/CaRL/tags/">
+    <img src="https://img.shields.io/github/v/tag/MatthiasSchinzel/CaRL.svg?sort=semver">
 </a>
 <a href="https://github.com/MatthiasSchinzel">
     <img src="https://img.shields.io/badge/Need%20help%3F-Ask-27B89C">
@@ -43,11 +43,11 @@ Key features
 
 * Inspired by **nature**: What information do you really need when driving a car? How much abstraction is too much? If you can play this game manually, the provided information is enough.
 
-* **Examples available**: [**SAC**](https://github.com/MatthiasSchinzel/Soft-Actor-Critic-For-Simple-Car-Game) and [**GTA5**](https://github.com/MatthiasSchinzel/Soft-Actor-Critic-Playing-GTA)
-
 * Create your **own track**: And this is *really* easy, you can even do it in paint!
 
 * Intended bring RL closer to **real life application**: There are a lot of options to close the domain gap.
+
+* **Examples available**: [**SAC**](https://github.com/MatthiasSchinzel/Soft-Actor-Critic-For-Simple-Car-Game) and [**GTA5**](https://github.com/MatthiasSchinzel/Soft-Actor-Critic-Playing-GTA)
 
 <h2>
 Getting Started
