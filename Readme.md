@@ -1,17 +1,62 @@
-# Simple car game for reinforcement learning
-
-<p align="center">
-  <img src="Visualization/ManuallyCarGame.gif">
+<p align="center" style="font-size:30px">
+<img src="Visualization/CaRL_200x200.png" align="center">
+</p>
+<p align="center" style="font-size:30px">
   <br>
-    <em>Actual in-game footage</em>
+  <em><strong>Ca</strong>r game for <strong>R</strong>einforcement <strong>L</strong>earning</em>
+  <br>
+</p>
+<p align="center">
+<a href="https://github.com/MatthiasSchinzel/Simple-Car-Game-For-Reinforcement-Learning/graphs/commit-activity">
+    <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg">
+</a>
+<a href="https://github.com/MatthiasSchinzel/Simple-Car-Game-For-Reinforcement-Learning/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/MatthiasSchinzel/Simple-Car-Game-For-Reinforcement-Learning.svg">
+</a>
+<a href="https://github.com/MatthiasSchinzel/Simple-Car-Game-For-Reinforcement-Learning/tags/">
+    <img src="https://img.shields.io/github/tag/MatthiasSchinzel/Simple-Car-Game-For-Reinforcement-Learning.svg">
+</a>
+<a href="https://github.com/MatthiasSchinzel">
+    <img src="https://img.shields.io/badge/Need%20help%3F-Ask-27B89C">
+</a>
+<a href="https://github.com/MatthiasSchinzel">
+    <img src="https://img.shields.io/badge/Car-Reinforcement%20Learning-red">
+</a>
+</p>
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#getting-started">Getting Started</a> •
+  <a href="#authors">Authors</a> •
+  <a href="#license">License</a> •
+  <a href="#acknowledgments">Acknowledgments</a>
 </p>
 
+<h2>
+Key features
+</h2>
 
-This is a simple car game is relying heavily on image warping (no 3D game), which you can use to test your reinforcement learning algorithms. The game can be played like any other game with the keyboard, but its main intention is to give openai gym-like python functions (consistency with openai gym not guaranteed). The game is giving feedback every frame. Aim is (especially for reinforcement learning) to maximize this score. The game is designed to make the race track creation as easy as porrible. Therefore it is accept .png images as racing tracks. You can generate tracks (even multiple tracks) to suit your individual needs, or just use my prebuild tracks.
+<img src="Visualization/ManuallyCarGame.gif" align="right">
 
-## 1. Getting Started
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+* **Easy to get started**: API close to OpenAI gym
+
+* Inspired by **nature**: What information do you really need when driving a car? How much abstraction is too much? If you can play this game manually, the provided information is enough.
+
+* **Examples available**: [**SAC**](https://github.com/MatthiasSchinzel/Soft-Actor-Critic-For-Simple-Car-Game) and [**GTA5**](https://github.com/MatthiasSchinzel/Soft-Actor-Critic-Playing-GTA)
+
+* Create your **own track**: And this is *really* easy, you can even do it in paint!
+
+* Intended bring RL closer to **real life application**: There are a lot of options to close the domain gap.
+
+<h2>
+Getting Started
+</h2>
 
 Maybe you want to play the game first manually to get a feeling for the game itself (1.2).
+
+This is a simple car game is relying heavily on image warping (no 3D game), which you can use to test your reinforcement learning algorithms. The game can be played like any other game with a keyboard, but its main intention is to give openai gym-like python functions (consistency with openai gym not guaranteed). The game is giving feedback every frame. Aim is (especially for reinforcement learning) to maximize this score. The game is designed to make the race track creation as easy as possible. Therefore it is accept .png images as racing tracks. You can generate tracks (even multiple tracks) to suit your individual needs, or just rely on the prebuild tracks.
+
 
 ### 1.1. Requirements
 
