@@ -1,3 +1,0 @@
-opencv-python>=4
-numpy>=1
-pygame>=1
