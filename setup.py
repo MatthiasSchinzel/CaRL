@@ -1,13 +1,13 @@
 from setuptools import setup
 
-setup(name='carl',
-      version='0.0.1',
+setup(name='car-rl',
+      version='0.7',
       description='Car game for reinforcement learning',
       url='https://github.com/MatthiasSchinzel/CaRL',
       author='Matthias Schinzel',
       author_email='unused@unused.com',
       license='MIT',
-      packages=['ca-rl'],
+      packages=['carl'],
       install_requires=[
         'opencv-python>=4',
         'numpy>=1',
