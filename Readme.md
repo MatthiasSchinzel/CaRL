@@ -1,5 +1,5 @@
 <p align="center" style="font-size:30px">
-<img src="Visualization/CaRL_200x200.png" align="center">
+<img src="https://raw.githubusercontent.com/MatthiasSchinzel/CaRL/master/Visualization/CaRL_200x200.png" align="center">
 </p>
 <p align="center" style="font-size:30px">
   <br>
@@ -37,7 +37,7 @@ Key features
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-<img src="Visualization/ManuallyCarGame.gif" align="right">  
+<img src="https://raw.githubusercontent.com/MatthiasSchinzel/CaRL/master/Visualization/ManuallyCarGame.gif" align="right">  
 
 * **Easy to get started**: API close to OpenAI gym
 
@@ -79,6 +79,10 @@ g = carl.carl()
 g.play_game_manually()
 ```
 Accelerate with W, brake with S, turn left with A and right with D.
+If you want to change the resolution you can do this with (to 320x176)
+```
+g.target_size = (320, 176)
+```
 
 ### 3. Let your (reinforcement learning) algorithm play the game
 
