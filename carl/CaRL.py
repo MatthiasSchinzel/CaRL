@@ -17,7 +17,6 @@ class State:
 
 class carl:
     def __init__(self):
-        print(pathlib.Path(__file__).parent.absolute())
         self.Target_FPS = 30
         # iterative paramter
         self.MAX_ITER = 3  # Max iteration
