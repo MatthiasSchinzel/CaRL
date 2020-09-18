@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(name='car-rl',
+setup(name='carl',
       version='0.0.1',
       description='Car game for reinforcement learning',
       url='https://github.com/MatthiasSchinzel/CaRL',
@@ -13,4 +13,8 @@ setup(name='car-rl',
         'numpy>=1',
         'pygame>=1',
       ],
+      package_data={
+        'Tracks': ['*.png']
+      },
+      include_package_data=True,
       zip_safe=False)

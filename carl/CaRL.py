@@ -1,7 +1,7 @@
 import numpy as np
 import pygame
 import cv2
-
+import pathlib
 
 class State:
     """
@@ -17,6 +17,7 @@ class State:
 
 class carl:
     def __init__(self):
+        print(pathlib.Path(__file__).parent.absolute())
         self.Target_FPS = 30
         # iterative paramter
         self.MAX_ITER = 3  # Max iteration
@@ -53,13 +54,13 @@ class carl:
         self.score = 0
         k = 0
         if k == 0:
-            self.impath = "Tracks/BigMap.png"
+            self.impath = str(pathlib.Path(__file__).parent.absolute()) + "/Tracks/BigMap.png"
         if k == 1:
-            self.impath = "Tracks/TestTrack.png"
+            self.impath = str(pathlib.Path(__file__).parent.absolute()) + "/Tracks/TestTrack.png"
         if k == 2:
-            self.impath = "Tracks/Map3.png"
+            self.impath = str(pathlib.Path(__file__).parent.absolute()) + "/Tracks/Map3.png"
         if k == 3:
-            self.impath = "Tracks/MapWithTrinagleAndSquare.png"
+            self.impath = str(pathlib.Path(__file__).parent.absolute()) + "/Tracks/MapWithTrinagleAndSquare.png"
         # load map
         self.img = cv2.imread(self.impath)
         # get start and end point
@@ -102,11 +103,11 @@ class carl:
 
     def load_next_map(self):
         if self.map_id == 1:
-            self.impath = 'Tracks/TestTrack.png'
+            self.impath = str(pathlib.Path(__file__).parent.absolute()) + "/Tracks/TestTrack.png"
         if self.map_id == 2:
-            self.impath = "Tracks/Map3.png"
+            self.impath = str(pathlib.Path(__file__).parent.absolute()) + "/Tracks/Map3.png"
         if self.map_id == 3:
-            self.impath = "Tracks/MapWithTrinagleAndSquare.png"
+            self.impath = str(pathlib.Path(__file__).parent.absolute()) + "/Tracks/MapWithTrinagleAndSquare.png"
             self.flag_last_round = 1
         self.img = cv2.imread(self.impath)
         self.indices = np.where(
